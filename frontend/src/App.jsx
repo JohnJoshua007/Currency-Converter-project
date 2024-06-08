@@ -36,7 +36,7 @@ function App() {
     //http request
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/convert",
+        "https://currency-converter-project-xi.vercel.app/api/convert",
         formData
       );
 

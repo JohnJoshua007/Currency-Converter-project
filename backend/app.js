@@ -14,9 +14,9 @@ const apiLimiter = rateLimit({
 });
 
 //cors options
-const corsOptions = {
-  origin: ["http://localhost:5173"],
-};
+// const corsOptions = {
+//   origin: ["http://localhost:5173"],
+// };
 //!Middlewares
 app.use(express.json());
 app.use(apiLimiter);
